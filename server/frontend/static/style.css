@@ -1,8 +1,18 @@
 img{
   width: 60%;
+  height:250px;
   align-self: center;
+  
 }
 
+.card-body {
+    border:solid #00CED1 4px;
+}
+.card-img-top {
+    border-top:solid #00CED1 4px;
+    border-left:solid #00CED1 4px;
+    border-right:solid #00CED1 4px;
+}
 .card{
   border: rgb(103, 102, 105) 3px solid;
   display: flex;  
@@ -11,6 +21,7 @@ img{
   margin-right:5%;
   margin-top: 1%;
   margin-bottom: 1%;
+  
 }
 
 .row{
@@ -39,6 +50,7 @@ img{
   text-align: center;
   margin:20px;
   padding:5px;
+  border-radius:8px;
 }
 
 .homepage_links{
